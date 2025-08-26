@@ -33,7 +33,7 @@ app.listen(PORT, () => {
     console.log(`
 Deployment Successful!
 
- Gifted-Session-Server Running on http://localhost:` + PORT)
+ Gifted-Session-Server Running on http://localhostnima:` + PORT)
 })
 
 module.exports = app
