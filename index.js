@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 __path = process.cwd()
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 8000;
 let qrRoute = require('./routers/qr');
 let pairRoute = require('./routers/pair');
 let validateRoute = require('./routers/validate');
@@ -33,7 +33,7 @@ app.listen(PORT, () => {
     console.log(`
 Deployment Successful!
 
- Gifted-Session-Server Running on http://localhostnima:` + PORT)
+ Gifted-Session-Server Running on http://localhost:` + PORT)
 })
 
 module.exports = app
